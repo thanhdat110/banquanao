@@ -1,0 +1,324 @@
+﻿
+.kohaku {
+    border:10px #8E007D solid;
+}
+body {
+  margin: 0;
+  font-family: arial
+}
+
+/* Định dạng header */
+
+/* Định dạng thanh điều hướng trên cùng */
+.topnav {
+  overflow: hidden;
+  background: black;
+  background-size:100% 50%;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+    .topnav a:hover {
+        background-color: #db7093;
+        color: white;
+        font-weight: bold;
+    }
+.nutDN {
+    background-color:blue;
+        border:yellow 1px solid;
+        border-radius: 15px; 
+        margin-left:70%;
+        color:yellow;
+        width:150px;
+}
+.nutDK {
+    background-color:blue;
+        border:yellow 1px solid;
+        border-radius: 15px; 
+        color:yellow;
+        width:150px;
+}
+.hienthi {
+    width:100%;
+    height:10px;
+    background-color:#8E007D;
+    padding:0px;
+    margin-top:-30px;
+}
+.hienthi1 {
+    width:100%;
+    margin-top:-16px;
+    height:40px;
+    background-color:black;
+}
+.cotphai {
+     Width:28.5%;
+     margin-top:0px;
+     float:left;
+     height:425px;
+    background:black;
+     
+}
+.carousel-inner img {
+    width: 100%;
+    height: 425px;
+    z-index: 3;
+  }
+.dong {
+    content: "";
+    clear:both;
+    display:table;
+    width:100%;
+}
+.cottrai
+{
+    width:71.5%;
+    margin-top:0px;
+    float:left;
+    height:425px;
+    background-size:100% 100%;
+    margin:auto;
+    border:#8E007D solid 10px;
+}
+
+/*-----tìm kiếm------*/
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*-------tua de-------*/
+.thanhden {
+    border: solid 1px;
+    border-color: #222;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom:10px;
+    height: 1px;
+    width: 37%;
+    float:left;
+    text-align:center;
+}
+.chu {
+    width: 26%;
+    padding: 0;
+    margin-top:10px;
+    margin-bottom:10px;
+    float: left;
+}
+/*------------*/
+.thantrai {
+    float:left;
+    width:20%;
+    /*position: fixed;
+    z-index:10000;*/
+}
+.thanphai {
+    /*float:left;
+    width:80%;*/
+    width:1000px;
+    margin:auto;
+}
+.anhdong2 {
+    background:no-repeat;
+    background-image:url('ANH/welcome 12.gif');
+    background-size:25% 100%;
+    height:100%;
+}
+.anhdong3 {
+    background:no-repeat;
+    background-image:url('ANH/tong-hop-hinh-anh-dong-dep-cho-powerpoint-8-3.gif');
+    background-size:75% 100%;
+    float:left;
+    height:100%;
+}
+.tichxanh {
+    height:20px;
+    width:20px;
+}
+.giohangitem {
+    text-align:center;
+    margin:50px auto;
+    font-size:20px;
+    border:1px black solid;
+}
+.classgrind{
+    width:1000px;
+    margin:50px auto;
+}
+/*-------DK----------*/
+.khungDK {
+    width:100%;
+    padding:20px;
+    border:1px solid #D8D8D8;
+    border-radius:10px;
+}
+.chuTB {
+    color:red;
+    margin-right:-280px;
+    font-size:20px;
+}
+.chuTB1 {
+    color:white;
+    font-size:20px;
+    margin-right:10px;
+}
+.TongTien {
+    color:red;
+}
+.menuAdmin {
+    margin:auto;
+    text-align:center;
+    padding:20px;
+}
+    .menuAdmin h3 {
+        border:1px black solid;
+        border-radius:10px;
+        padding:5px;
+    }
+.menuAdmin2 {
+    margin:auto;
+    text-align:center;
+    padding:20px;
+    background-color:white;
+}
+    .menuAdmin2 h3 {
+        border:1px black solid;
+        border-radius:10px;
+        padding:5px;
+    }
+.dsItemAdmin {
+    border:#E6E6E6 1px solid;
+    border-radius:10px;
+    width:100%;
+    margin:10px;
+    font-size:15px;
+    margin-bottom:20px;
+}
+.adminTen{
+    border-right:#E6E6E6 1px solid;
+    width:12%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminMa{
+    border-right:#E6E6E6 1px solid;
+    width:4%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminGia{
+    border-right:#E6E6E6 1px solid;
+    width:6%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminAnh{
+    border-right:#E6E6E6 1px solid;
+    width:9%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminThongtin{
+    border-right:#E6E6E6 1px solid;
+    width:14%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminSK{
+    border-right:#E6E6E6 1px solid;
+    width:4%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminXuatxu{
+    border-right:#E6E6E6 1px solid;
+    width:9%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminChatlieu{
+    border-right:#E6E6E6 1px solid;
+    width:9%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminSize{
+    border-right:#E6E6E6 1px solid;
+    width:9%;
+    height:150px;
+    float:left;
+    margin-top:5px;
+}
+.adminGiacu{
+    border-right:#E6E6E6 1px solid;
+    width:9%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminMaloai{
+    border-right:#E6E6E6 1px solid;
+    width:5%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminNut {
+    width:9%;
+    float:left;
+    height:150px;
+    margin-top:5px;
+}
+.adminlistbox {
+    height:100px;
+    width:100%;
+}
+
+.ngang {
+    white-space: nowrap;
+}
